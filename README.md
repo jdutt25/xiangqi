@@ -3,7 +3,7 @@ Abstract game of Xiangqi in Python
 
 Follows the rules from the Xiangqi Wikipedia Page (https://en.wikipedia.org/wiki/Xiangqi), with the exception of chasing and perpetual check. Red's turn is first. 
 
- Here's an example of how to make a move:
+Example of how to make a move:
  game = XiangqiGame()
  game.make_move("a4", "a5") #move from, move to
  
