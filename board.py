@@ -150,4 +150,3 @@ class Board:
                 index2 = 8
 
         return index2
-

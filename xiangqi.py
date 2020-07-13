@@ -25,7 +25,6 @@ class XiangqiGame:
         self._check_status = False
         self._checkmate_status = False
         self._color = None
-        self._full_color = None
 
     def get_game_board(self):
         """
@@ -41,6 +40,7 @@ class XiangqiGame:
             self._turn = "B"
         elif self._turn == "B":
             self._turn = "R"
+
 
     def get_turn(self):
         """
@@ -81,6 +81,7 @@ class XiangqiGame:
     def set_full_color(self, color):
         """
         takes as a parameter "R" or "B" and returns the full color value ("red" or "black)
+        full color is needed for the is_in_check method
         """
         if color == "R":
             self._full_color = "red"
@@ -160,8 +161,8 @@ class XiangqiGame:
         """
 
         legal_moves = []
-        i1 = 0
-        i2 = 0
+        i1 = 0      # 1st index
+        i2 = 0      # 2nd index
 
         if full_color == "red":  # searches the board for pieces owned by red player
             while i1 <= 9:
@@ -293,6 +294,7 @@ class XiangqiGame:
 def main():
    game = XiangqiGame()
    game.make_move("a4", "a5")
+   game.get_turn()
 
 
 
