@@ -1,5 +1,5 @@
 # Author: Jessica Dutton
-# Description: unit tests for Xianqi
+# Description: unit tests for Xiangqi
 
 import unittest
 from xiangqi import XiangqiGame
