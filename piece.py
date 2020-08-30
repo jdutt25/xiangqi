@@ -1,5 +1,5 @@
 # Author: Jessica Dutton
-# Description: Contains the Piece class of the Xianqi python game
+# Description: Contains the Piece class of the Xiangqi python game
 
 
 class Piece:
