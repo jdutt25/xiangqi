@@ -1,5 +1,5 @@
 # Author: Jessica Dutton
-# Description: Contains the Board class of the Xianqi python game
+# Description: Contains the Board class of the Xiangqi python game
 
 class Board:
     """"
